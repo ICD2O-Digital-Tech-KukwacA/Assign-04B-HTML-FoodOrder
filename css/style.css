@@ -1,4 +1,15 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Kukwac
+* Created on: May 2025
 * This file contains the CSS for index.html
 */
+body {
+    padding: 20px;
+}
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+h2 {
+    text-align: center;
+    color: red;
+}

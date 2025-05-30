@@ -94,15 +94,15 @@
             <span class="mdl-textfield__error">Invalid information</span>
           </div>
           <br>
-          <h4>Poutine type</h4>
+          <h4>Poutine</h4>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="poutine-type"
+              id="poutine"
             />
-            <label class="mdl-textfield__label" for="poutine-type">Enter poutine type...</label>
+            <label class="mdl-textfield__label" for="poutine">Enter poutine type...</label>
             <span class="mdl-textfield__error">Invalid information</span>
           </div>
         </form>
@@ -111,12 +111,15 @@
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
           onclick="foodOrder()">
-          Display Result
+          Display total
         </button>
 
         <!-- Result -->
         <div id="answers">
-          <div id="result"></div>
+          <div id="subtotal"></div>
+          <div id="tax"></div>
+          <div id="total"></div>
+          <div id="error"></div>
         </div>
   </body>
 </html>

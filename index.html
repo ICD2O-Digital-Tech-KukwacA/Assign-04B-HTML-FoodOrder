@@ -38,7 +38,7 @@
       <table border=3 width=60%>
         <tr>
           <th>Poutine</th>
-          <th>Description</th>\
+          <th>Description</th>
           <th>Sizes</th>
         </tr>
         <tr>
@@ -87,7 +87,6 @@
             <input
               class="mdl-textfield__input"
               type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
               id="size"
             />
             <label class="mdl-textfield__label" for="size">Enter size...</label>
@@ -99,7 +98,6 @@
             <input
               class="mdl-textfield__input"
               type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
               id="poutine"
             />
             <label class="mdl-textfield__label" for="poutine">Enter poutine type...</label>
@@ -113,8 +111,9 @@
           onclick="foodOrder()">
           Display total
         </button>
-
+        <br>
         <!-- Result -->
+        <h4>Order Summary</h4>
         <div id="answers">
           <div id="subtotal"></div>
           <div id="tax"></div>
